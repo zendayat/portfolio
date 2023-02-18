@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Craizee</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Great+Vibes&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital@1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
+    <script src="main.js"></script>
+</head>
+<body id="main">
+    <div class="landing" id="landing">
+        <div class="navbar">
+            <div class="logo">
+                <a href="#landing"><img src="images/logo.png"></a>
+            </div>
+            <div class="nav">
+                <li>
+                    <ul><a href="#back" id="a2">Background</a></ul>
+                    <ul><a href="#sk" id="a1">Skills</a></ul>
+                    <ul><a href="#pr" id="a3">Projects</a></ul>
+                    <ul><button onclick="scrollToDiv()">Hire Me</button></ul>
+                </li>
+                <script>
+                    function scrollToDiv() {
+                      var div = document.getElementById("hire");
+                      div.scrollIntoView({behavior: "smooth"});
+                    }
+                </script>
+            </div>
+        </div>
+        <div class="body">
+            <div class="info">
+                <h1><span>W</span>ELCOME...</h1>
+                <h3><span>I  </span>Am a WebDesigner,</h3>
+                <h4><span>T</span>his is my Portfolio...</h4>
+                <div id="line">.</div>
+                <div id="line2">.</div>
+                <div class="stats">
+                    <div class="project-no">
+                        <div class="no">
+                            100
+                        </div>
+                        <div id="info">PROJECTS</div>
+                    </div>
+                    <div class="intern-no">
+                        <div class="no">
+                            5
+                        </div>
+                        <div id="info">INTERNSHIPS</div>
+                    </div>
+                    <div class="associations-no">
+                        <div class="no">
+                            24
+                        </div>
+                        <div id="info">ASSOCIATIONS</div>
+                    </div>
+                </div>
+            </div>
+            <div class="pic">
+                <img src="images/Dark_Gradient_Neon_Depop_Profile_Picture-removebg-preview.png">
+                <div id="line">.</div>
+                <div class="name"><span>A</span>lly Ngana Chimerah.</div>
+                <div class="prof"><span>W</span>eb Developer.</div>
+                <div class="place">Kenya.</div>
+                <button onclick="myResume()">My Resume</button>
+                <script>
+                    function myResume(){
+                        window.location.href = "docs/Resume.pdf";
+                    }
+                </script>
+            </div>
+        </div>
+        <div class="menu-bar">
+            <div class="icon">
+                <button onclick="toggleMenu()"><i class="fa fa-navicon"></i></button>
+            </div>
+            <div class="bar" id="bar">
+                <li>
+                    <ul><button><a href="#landing"><i class="fa fa-home"></i></a></button></ul>
+                    <ul><button><a href="#back"><span>BG</span></a></button></ul>
+                    <ul><button><a href="#sk"><i class="fa fa-wrench"></i></a></button></ul>
+                    <ul><button><a href="#pr"><span>Pr</span></a></button></ul>
+                    <ul><button><a href="#hire"><i class="fa fa-phone"></i></a></button></ul>
+                    <ul><button><a href="https://www.facebook.com/"><i class="fa fa-facebook" style="color: rgb(8, 87, 177);"></i></a></button></ul>
+                    <ul><button><a href="https://www.instagram.com/"><i class="fa fa-instagram" style="color: rgb(177, 8, 73);"></i></a></button></ul>
+                    <ul><button><a href="https://github.com/"><i class="fa fa-github"></i></a></button></ul>
+                    <!-- <ul><button onclick="beLight()"><i class="fa fa-sun-o"></i></button></ul>
+                    <ul><button onclick="beDark()"><i class="fa fa-moon-o"></i></button></ul> -->
+                </li>
+            </div>
+        </div>
+        <!-- <div class="settings">
+            <button><i class="fa fa-cogs"></i></button>
+            <div id="box">
+                
+            </div>
+        </div> -->
+    </div>
+    <div class="background" id="back">
+        <h2>MY BACKGROUND</h2>
+        <div class="events">
+            <div class="uni">
+                <div class="decor">
+                    <i class="fa fa-calendar"></i>
+                    <div id="dline"></div>
+                </div>
+                <div class="info">
+                    <div class="when">2020 -</div>
+                    <div class="description">
+                        Pwani University<br/>
+                                    <b>Continuing...</b>
+                    </div>
+                </div>
+            </div>
+            <div class="sec">
+                <div class="decor">
+                    <i class="fa fa-calendar"></i>
+                    <div id="dline"></div>
+                </div>
+                <div class="info">
+                    <div class="when">2017 - 2020</div>
+                    <div class="description">
+                        Sheikh Khalifa Bin Zayed An-Nahyan<br/>
+                                    <b>Completed O-level studies { B+ }</b>
+                    </div>
+                </div>
+            </div>
+            <div class="pri">
+                <div class="decor">
+                    <i class="fa fa-calendar"></i>
+                    <div id="dline"></div>
+                </div>
+                <div class="info">
+                    <div class="when">2008 - 2016</div>
+                    <div class="description">
+                        Sheikh Khalifa Bin Zayed An-Nahyan<br/>
+                                    <b>Completed O-level studies { B+ }</b>
+                    </div>
+                </div>
+            </div>
+            <div class="work">
+                <div class="decor">
+                    <i class="fa fa-calendar"></i>
+                    <div id="dline"></div>
+                </div>
+                <div class="info">
+                    <div class="when">2020 -</div>
+                    <div class="description">
+                        (<b>WORK</b>)Freelancer<br/>
+                                    <a href="#">Hire Me</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="services" id="sk">
+        <h2>MY SERVICES</h2>
+        <div class="skill-set">
+            <div class="service1">
+                <h1>WEB-DESIGN</h1>
+                <div id="word">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris n</div>
+            </div>
+            <div class="service1">
+                <h1>UI/UX DESIGN</h1>
+                <div id="word">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris n</div>
+            </div>
+            <div class="service1">
+                <h1>PHOTOGRAPHY</h1>
+                <div id="word">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris n</div>
+            </div>
+        </div>
+    </div>
+    <div class="project" id="pr">
+        <h2>MY PROJECTS</h2>
+        <div class="box">
+            <div class="project-box">
+                <img src="images/project1.png">
+            </div>
+            <div class="project-box">
+                <img src="images/project2.png">
+            </div>
+        </div>
+    </div>
+    <div class="hire" id="hire">
+        <h2>CONTACT ME</h2>
+        <div class="contacts">
+            <div class="info">
+                <h3>ARE YOU INTERESTED IN MY WORK?</h3>
+                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris n</span>
+                <div id="line">.</div>
+                <div class="socials">
+                    <li>
+                        <ul><a href="https://www.facebook.com/"><i class="fa fa-facebook" style="color: rgb(8, 87, 177);"></i></a></ul>
+                        <ul><a href="https://www.instagram.com/"><i class="fa fa-instagram" style="color: rgb(177, 8, 73);"></i></a></ul>
+                        <ul><a href="https://twitter.com/"><i class="fa fa-twitter" style="color: rgb(13, 231, 202);"></i></a></ul>
+                        <ul><a href="https://github.com/"><i class="fa fa-pinterest" style="color: rgb(177, 8, 73);"></i></a></ul>
+    
+                    </li>
+                </div>
+            </div>
+            <div class="input">
+                <div class="input1">
+                    
+                    <input type="text" placeholder="Email Address" id="email">
+                </div>
+                <div class="input2">
+                    
+                    <input type="text" placeholder="Name/Organization name" id="name">
+                </div>
+                <div class="input3">
+                    
+                    <input type="text" placeholder="Talk to me" id="message">
+                </div>
+                <button type="submit" id="submit">SUBMIT</button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <h2>CREATED BY CRAIZEE_IDO.</h2>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>

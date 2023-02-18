@@ -1,0 +1,10 @@
+<ul><button><a href="#landing"><i class="fa fa-home"></i></a></button></ul>
+                    <ul><button><a href="#back"><span>BG</span></a></button></ul>
+                    <ul><button><a href="#sk"><i class="fa fa-wrench"></i></a></button></ul>
+                    <ul><button><a href="#pr"><span>Pr</span></a></button></ul>
+                    <ul><button><i class="fa fa-sun-o"></i></button></ul>
+                    <ul><button><i class="fa fa-moon-o"></i></button></ul>
+                    <ul><button><i class="fa fa-envelope"></i></button></ul>
+                    <ul><button><i class="fa fa-facebook" style="color: rgb(8, 87, 177);"></i></button></ul>
+                    <ul><button><i class="fa fa-instagram" style="color: rgb(177, 8, 73);"></i></button></ul>
+                    <ul><button><i class="fa fa-github"></i></button></ul>
